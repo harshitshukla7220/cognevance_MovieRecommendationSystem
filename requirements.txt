@@ -1,0 +1,86 @@
+﻿# Movie Recommendation System
+
+## Project Overview
+A content-based Movie Recommendation System developed for the Cognevance Technologies AI/ML project.
+
+## Features
+- Recommends five similar movies.
+- Displays movie posters, release years, and ratings.
+- Interactive Streamlit interface.
+
+## Technologies Used
+- Python, Pandas, NumPy
+- Scikit-learn
+- NLTK
+- Streamlit
+- TMDB API
+
+## Dataset
+- tmdb_5000_movies.csv
+- tmdb_5000_credits.csv
+
+Dataset source: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+## Workflow
+1. Load and merge movie datasets.
+2. Clean and preprocess movie metadata.
+3. Combine overview, genres, keywords, cast, and director into tags.
+4. Apply stemming and CountVectorizer.
+5. Calculate cosine similarity.
+6. Save movie data and similarity matrix as pickle files.
+7. Run the Streamlit application.
+
+## Run the Project
+Install dependencies:
+
+```bash
+python -m pip install -r requirements.txt@'
+# Movie Recommendation System
+
+## Project Overview
+A content-based Movie Recommendation System developed for the Cognevance Technologies AI/ML project.
+
+## Features
+- Recommends five similar movies.
+- Displays movie posters, release years, and ratings.
+- Interactive Streamlit interface.
+
+## Technologies Used
+- Python, Pandas, NumPy
+- Scikit-learn
+- NLTK
+- Streamlit
+- TMDB API
+
+## Dataset
+- tmdb_5000_movies.csv
+- tmdb_5000_credits.csv
+
+Dataset source: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+## Workflow
+1. Load and merge movie datasets.
+2. Clean and preprocess movie metadata.
+3. Combine overview, genres, keywords, cast, and director into tags.
+4. Apply stemming and CountVectorizer.
+5. Calculate cosine similarity.
+6. Save movie data and similarity matrix as pickle files.
+7. Run the Streamlit application.
+
+## Run the Project
+Install dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+
+## Step 2: `requirements.txt` बनाओ
+
+```powershell
+@'
+streamlit
+pandas
+numpy
+scikit-learn
+requests
+nltk
