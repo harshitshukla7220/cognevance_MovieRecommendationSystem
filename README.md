@@ -2,7 +2,7 @@
 
 
 ## Project Overview
-A content-based movie recommendation system developed as part of the Cognevance Technologies AI/ML project.
+A content-based movies recommendation system developed as part of the Cognevance Technologies AI/ML project.
 
 The application recommends five similar movies based on the selected movie's metadata.
 
